@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-WebApplication1-31541635-EB6D-44D0-AF2A-B77C417954FD</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api_Usuario\Api_Usuario.csproj" />
+  </ItemGroup>
+
+</Project>
